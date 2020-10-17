@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="img/icon-01.png"
+    />
+    <title>TROIS COULEURS</title>
+    <script
+      src="http://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <section class="moving-poster">
+      <!-- 배경부 -->
+      <content class="background">
+        <img class="background__back" src="img/bg-back-1.png" alt="" />
+        <div class="background__back-dummy"></div>
+        <img class="background__texture" src="img/bg-texture-2.png" alt="" />
+        <img class="background__fonts" src="img/bg-fonts-3.png" alt="" />
+        <div class="background__grad"></div>
+        <h1 class="main__header__title">TROIS COULEURS</h1>
+        <h1 class="main__header__director">KRZYSZTOF KIESLOWSKI</h1>
+      </content>
+
+      <!-- 메인요소 -->
+      <main class="wrapper__main">
+        <div class="main__colors">
+          <div class="main__colors-bleu colors__anim-first"></div>
+          <div class="main__colors-blanc colors__anim-first"></div>
+          <div class="main__colors-rouge colors__anim-first"></div>
+        </div>
+
+        <div class="main__colors">
+          <div class="main__colors-bleu colors__anim-second-bleu"></div>
+          <div class="main__colors-blanc colors__anim-second-blanc"></div>
+          <div class="main__colors-rouge colors__anim-second-rouge"></div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>

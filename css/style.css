@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "background.css";
+@import "colors.css";
+
+body {
+  /* background-color: var(--color-background); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7035189075630253) 45%,
+    rgba(0, 0, 0, 0.7035189075630253) 55%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.moving-poster {
+  display: flex;
+  position: relative;
+  width: 1645px;
+  height: 925px;
+}
+.wrapper__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
